@@ -488,7 +488,7 @@
 					<div class="text-center">
 						<ul class="nav nav-pills mix-filter mb-60">
 							<li data-filter="all" class="filter active"><a href="#">All</a></li>
-							<li data-filter="development" class="filter"><a href="#">Development</a></li>
+							<li data-filter="Residential" class="filter"><a href="#">Residential</a></li>
 							<li data-filter="photography" class="filter"><a href="#">Photography</a></li>
 							<li data-filter="design" class="filter"><a href="#">Design</a></li>
 						</ul>
@@ -537,7 +537,7 @@
 							</div><!-- /item -->
 
 
-							<div class="col-md-3 col-sm-3 mix development"><!-- item -->
+							<div class="col-md-3 col-sm-3 mix Residential"><!-- item -->
 
 								<div class="item-box">
 									<figure>
@@ -558,14 +558,14 @@
 											</span>
 										</span>
 
-										<img class="img-fluid" src="demo_files/images/thematics/construction/w2-min.jpg" width="600" height="399" alt="">
+										<img class="img-fluid" src="../../Rocket_Elevator_Assets/r1.jpg" width="600" height="399" alt="">
 									</figure>
 
 									<div class="item-box-desc">
-										<h3>Speaker Design</h3>
+										<h3>Residential 1</h3>
 										<ul class="list-inline categories m-0">
-											<li><a href="#">Audio</a></li>
-											<li><a href="#">Design</a></li>
+											<li><a href="#">Residential</a></li>
+											<li><a href="#">Elevator</a></li>
 										</ul>
 									</div>
 
@@ -1091,7 +1091,7 @@
 
 					<header class="text-center mb-60">
 						<h2>Contact Us</h2>
-						<p class="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
+						<p class="lead font-lato"></p>
 						<hr />
 					</header>
 
@@ -1158,9 +1158,15 @@
 												<label for="name">Full Name *</label>
 												<input required type="text" value="" class="form-control" name="name" id="name">
 											</div>
-											<div class="col-md-4">
+											<div class="col-md-8">
 												<label for="email">E-mail Address *</label>
 												<input required type="email" value="" class="form-control" name="email" id="email">
+											</div>
+									</div>
+									<div class="row">
+											<div class="col-md-8">
+												<label for="email">Business Name</label>
+												<input required type="bname" value="" class="form-control" name="bname" id="bname">
 											</div>
 											<div class="col-md-4">
 												<label for="phone">Phone</label>
@@ -1168,26 +1174,32 @@
 											</div>
 									</div>
 									<div class="row">
-											<div class="col-md-8">
-												<label for="subject">Subject *</label>
-												<input required type="text" value="" class="form-control" name="subect" id="subject">
-											</div>
 											<div class="col-md-4">
 												<label for="contact_department">Department</label>
 												<select class="form-control pointer" name="contact[department]">
 													<option value="">--- Select ---</option>
-													<option value="Marketing">Marketing</option>
-													<option value="Webdesign">Webdesign</option>
-													<option value="Architecture">Architecture</option>
+													<option value="Residential">Residential</option>
+													<option value="Corporate">Corporate</option>
+													<option value="Awards">Awards</option>
 												</select>
+											</div>
+											<div class="col-md-8">
+												<label for="pname">Project Name</label>
+												<input required type="text" value="" class="form-control" name="pname" id="pname">
 											</div>
 									</div>
 									<div class="row">
 											<div class="col-md-12">
-												<label for="contact:message">Message *</label>
-												<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
+												<label for="pdescription">Project Description</label>
+												<textarea required maxlength="10000" rows="5" class="form-control" name="pdescription" id="pdescription"></textarea>
 											</div>
 									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<label for="contact:message">Message *</label>
+											<textarea required maxlength="10000" rows="5" class="form-control" name="contact[message]" id="contact:message"></textarea>
+										</div>
+								</div>
 									<div class="row">
 											<div class="col-md-12">
 												<label for="contact:attachment">File Attachment</label>
@@ -1236,9 +1248,9 @@
 							<hr />
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> Street Name, City Name, Country</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-555-1234">1800-555-1234</a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:mail@yourdomain.com">mail@yourdomain.com</a></span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong>136 4th street, St Pete, USA</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-555-1234">(800) 887-2497</a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:mail@yourdomain.com">RocketElevators@gmail.com</a></span>
 							</p>
 
 						</div>
@@ -1285,7 +1297,7 @@
 									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
 									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
 									<span class="input-group-btn">
-										<button class="btn btn-success" type="submit">Subscribe</button>
+										<button class="btn btn-success" href="#contact"type="submit">Subscribe</button>
 									</span>
 								</div>
 							</form>
